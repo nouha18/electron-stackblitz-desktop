@@ -1,0 +1,24 @@
+{
+  "name": "stackblitz",
+  "version": "1.0.0",
+  "description": "stackblitz online free editor",
+  "main": "renderer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "config": {
+    "devContentSecurityPolicy": "default-src"
+  },
+  "author": "nouha mb",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.8",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+    "@stackblitz/sdk": "^1.5.5",
+    "electron-rebuild": "^3.2.7",
+    "node-abi": "^3.1.0"
+  }
+}
